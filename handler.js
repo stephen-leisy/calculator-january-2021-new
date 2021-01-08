@@ -1,6 +1,6 @@
 import { getAddSum, getSubtractSum, getMultiplySum, getDivideSum } from './utils.js';
 
-// Addition stuff
+// Addition handlers
 const addInput1 = document.getElementById('add-input-1');
 const addInput2 = document.getElementById('add-input-2');
 const addResults = document.getElementById('add-sum');
@@ -12,7 +12,7 @@ export function addClickHandler() {
     addResults.textContent = sum;
 }
 
-// subtraction stuff
+// subtraction handlers
 const subInput1 = document.getElementById('sub-input-1');
 const subInput2 = document.getElementById('sub-input-2');
 const subtractResults = document.getElementById('subtract-sum');
@@ -24,7 +24,7 @@ export function subtractClickHandler() {
     subtractResults.textContent = sum;
 }
 
-// multiplecation stuff
+// multiplecation handlers
 const multiplyInput1 = document.getElementById('multiply-input-1');
 const multiplyInput2 = document.getElementById('multiply-input-2');
 const multiplyResults = document.getElementById('multiply-sum');
@@ -36,7 +36,7 @@ export function multiplyClickHandler() {
     multiplyResults.textContent = sum;
 }
 
-// division stuff
+// division handlers
 const divideInput1 = document.getElementById('divide-input-1');
 const divideInput2 = document.getElementById('divide-input-2');
 const divideResults = document.getElementById('divide-sum');
